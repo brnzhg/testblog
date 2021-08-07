@@ -1,0 +1,12 @@
+name: blogenv
+channels:
+- conda-forge
+dependencies:
+- python
+- ablog
+- pip
+- mypy
+- lenses
+- toolz
+- pip:
+  - docutils-stubs
